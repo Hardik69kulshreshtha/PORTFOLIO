@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <link rel="stylesheet" href="style.css">
+    <title>PORTFOLIO</title>
+</head>
+<body>
+
+    <!--navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Projects</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+        <!-- home section -->
+    <section class="home-section active">
+        <h1 class="hero-heading">Hello, I am <br>Hardik Kulshreshtha</h1>
+        <img src="images/img.jpg" class="home-img" >
+    </section>
+
+
+
+
+    <!-- project section-->
+    <section class="project-section active">
+        <h1 class="project-heading">some of my projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="images/face_detection.webp" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Facial Recognition Attendence System</h1>
+                    <p class="project-info">
+                        This model integrates a camera that captures an input image, an algorithm for detecting face from an input image, encoding and identifying the face, marking the attendance in a spreadsheet and converting it into PDF file. The training database is created by training the system with the faces of the authorized students.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/live-chat.webp" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Client-Server communication</h1>
+                    <p class="project-info">
+                        Using the concept of Socket programming and Multithreading to make a chat based communication tool between clinet and server by GUI using swing framework.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- about section -->
+<section class="about-section active">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="images/cv.webp" class="about-img" alt="">
+            <button class="download-cv-btn">Downlaod cv</button>
+        </div>
+        <p class="about-info"><br>I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.<br>Seeking a challenging position in a reputable organization to expand and utilize my learning, skills and knowledge. Possess excellent communication skills and have an eye for detail. Flexible to work in any environment as required.</p>
+    </div>
+
+
+
+
+
+<!-- skills -->
+<div class="skill-section">
+    <h1 class="heading">skills</h1>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="images/FED.avif" class="skill-img" alt="">
+            <div class="skill-level">80%</div>
+            <h1 class="skill-name">Front End Development</h1>
+            <p class="skill-info">Have dont multiple project which include knowledge of HTML, CSS, JS, REACT.</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/java.jpg" class="skill-img" alt="">
+            <div class="skill-level">90%</div>
+            <h1 class="skill-name">JAVA Programming</h1>
+            <p class="skill-info">Compititive coding and problem solving using java programming language.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- timeline -->
+<div class="timeline">
+    <h1 class="heading">education and experience</h1>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2006-2020</h1>
+            <p class="card-detail"><b>RYAN INTERNATIONAL SCHOOL GHAZIABAD</b></p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2020-2024</h1>
+            <p class="card-detail"><b>IMS ENGINEERING COLLEGE GHAZIABAD</b><br>B.Tech Computer Science and Engineering </p>
+        </div>
+        </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">12-6-2023 to 24-7-2023</h1>
+            <p class="card-detail"><b>AICTE Internship</b><br>IBM skillbuilder and edunet foundation internship as front end developer</p>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- contact section -->
+<section class="contact-section">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+    <!-- map -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163742937!2d76.81306771991275!3d28.647279935262464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1639489002410!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+    <script src="app.js"></script> 
+
+</body>
+</html>
